@@ -1,0 +1,165 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Benne', serif;
+}
+
+/*Frase*/
+#frase{
+    background-color: black;
+    color:blanchedalmond;
+    text-align: right;
+    padding-right: 6%;
+    font-weight: lighter;
+}
+
+
+/*Banner expandido*/
+
+#banner{ width: 100%;
+}   
+
+/*estilos generales*/
+
+header{background-image: url(img/banner.jpg);
+
+}
+
+#fotocesar{
+    align-content: center;
+    width: 180px;
+    height: 180px;
+    padding-top: 25px;
+    border-radius: 50%;
+}
+
+
+
+
+/*header*/
+.foto{
+    height: 250px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*titulo del curriculo*/
+main{
+    background-color:  whitesmoke; 
+    margin: 0;
+    padding: 0px;
+    letter-spacing: 0px;
+    font-weight: lighter;
+    height: 100px;
+    color: black;
+    text-align: center;
+}
+h1{  margin: 0;
+    font-size: 30px;}
+h3{color: black;
+    margin: 0;
+    font-size: 15px;
+    font-weight: lighter;
+    padding:0%
+}
+    
+/*subtitulo*/
+
+.subtitulo{
+    
+    background-color: black;
+    color: wheat;
+    padding: 6px 15px;
+    top: 352px;  
+    font-size: 20px;
+    letter-spacing: 0px;  
+    border-radius: 0%;
+}
+
+/*Datos de la hoja de vida*/
+
+.datos{
+    margin: 5% 25%;
+}
+
+/*Titulos de descripción*/
+
+.titulosDatos{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/*Respuestas a los titulos de descripción*/
+
+.respuesta{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+
+}
+/*imagenes formación academica*/
+
+.imagenes{ margin: o;
+
+}
+/*imagenes formación experiencia*/
+
+#fondo{
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.experiencia{
+    height: 250px;
+    width: 600px;
+    border-radius: 5%;
+    border-image: 2px;
+    display: flex;
+
+}
+
+/*Pie de pagina*/
+
+.datosexperiencia{
+    text-align: center;
+}
+
+.piePagina{
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    padding: 10px;
+    align-content: center;
+}
+
+/*Otra pagina*/
+
+#soy{background-image: url(img/cesarM.jpg);
+    padding: 10%;
+}
+
+p{
+background-color:orangered;
+color: white;
+font-weight: bold;
+width: 70%;
+text-align: center;
+font-size: 25px;
+align-content: center;
+align-items: center;
+display: flex;
+}
